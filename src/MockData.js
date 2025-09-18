@@ -74,11 +74,11 @@ export const teamMembers = [
     },
     {
         id: 2,
-        name: "Sandeep Wijesooriya",
+        name: "Sarah Khalil",
         role: "UI/UX/Graphic Designer",
         expertise: "Design Systems, User Research",
         experience: "8+ years",
-        img:'/images/members/m1.png',
+        img:'https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D',
     },
     {
         id: 3,
