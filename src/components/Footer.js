@@ -23,22 +23,22 @@ const Footer = () => {
                     <div className="row gy-4">
                         {/* Company Info */}
                         <div className="col-lg-6">
-                            <h3 className="fw-bold text-white mb-3">BIT512</h3>
+                            <h3 className="fw-bold text-success mb-3">BIT512</h3>
                             <p className="text-secondary mb-3" style={{ maxWidth: "400px" }}>
                                 Building digital experiences that help brands grow.
                             </p>
 
                             <div className="d-flex flex-column gap-2">
                                 <div className="d-flex align-items-center gap-2">
-                                    <Mail style={{ color: "#52C483" }} size={18} />
+                                    <Mail className='text-success' size={18} />
                                     <span className="text-secondary">{contactInfo.email}</span>
                                 </div>
                                 <div className="d-flex align-items-center gap-2">
-                                    <Phone style={{ color: "#52C483" }} size={18} />
+                                    <Phone className='text-success' size={18} />
                                     <span className="text-secondary">{contactInfo.phone}</span>
                                 </div>
                                 <div className="d-flex align-items-center gap-2">
-                                    <MapPin style={{ color: "#52C483" }} size={18} />
+                                    <MapPin className='text-success' size={18} />
                                     <span className="text-secondary">{contactInfo.address}</span>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ const Footer = () => {
                         <div className="col-lg-3">
                             <h5 className="text-white mb-3">Quick Links</h5>
                             <div className="d-flex flex-column gap-2">
-                                {["home", "services", "about", "testimonials", "contact"].map((section) => (
+                                {["home", "services", "about","projects", "testimonials", "contact"].map((section) => (
                                     <button
                                         key={section}
                                         onClick={() => scrollToSection(section)}
@@ -83,14 +83,14 @@ const Footer = () => {
 
                         <div className="d-flex align-items-center gap-3">
                             <div className="text-secondary small">
-                                Built with React & Python
+                                Built with React
                             </div>
                             <button
                                 onClick={scrollToTop}
-                                className="btn btn-dark border border-secondary d-flex align-items-center justify-content-center"
+                                className="btn btn-success d-flex align-items-center justify-content-center"
                                 style={{ width: "40px", height: "40px" }}
                             >
-                                <ArrowUp className="text-secondary" size={18} />
+                                <ArrowUp className="text-white" size={18} />
                             </button>
                         </div>
                     </div>

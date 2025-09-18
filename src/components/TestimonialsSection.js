@@ -1,5 +1,5 @@
 import React from "react";
-import {Star, Quote, StarIcon} from "lucide-react";
+import {Star, Quote} from "lucide-react";
 import { testimonials } from "../MockData";
 import "../assets/css/testimonials-section.css";
 
@@ -76,7 +76,7 @@ const TestimonialsSection = () => {
                         Let's create something amazing together. Start your project today and
                         become our next success story.
                     </p>
-                    <button className="cta-button">Start Your Project</button>
+                    <button className="cta-button btn-primary bg-green-dark">Start Your Project</button>
                 </div>
             </div>
         </section>

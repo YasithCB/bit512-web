@@ -1,0 +1,92 @@
+/* Contact Section – Dark Theme */
+#contact {
+    padding: 5rem 0;
+    color: #fff;
+}
+
+/* Headings & text */
+#contact h2,
+#contact h3,
+#contact h4,
+#contact h5 {
+    color: #fff;
+    font-weight: 600;
+}
+#contact p {
+    color: #94a3b8;                       /* text-secondary tone */
+    line-height: 1.6;
+}
+
+/* Form wrapper */
+#contact .bg-secondary {
+    background-color: #1f2937 !important; /* slightly lighter dark card */
+}
+#contact .border-dark {
+    border-color: #374151 !important;
+}
+
+/* Form controls */
+#contact .form-control,
+#contact .form-select {
+    background-color: #0f172a;
+    border: 1px solid #374151;
+    color: #f8fafc;
+}
+#contact .form-control:focus,
+#contact .form-select:focus {
+    border-color: #52c483;                /* green brand accent */
+    box-shadow: 0 0 0 0.2rem rgba(82,196,131,0.25);
+}
+#contact label {
+    font-weight: 500;
+    color: #e2e8f0;
+}
+#contact textarea::placeholder,
+#contact input::placeholder {
+    color: #64748b;
+}
+
+/* Buttons */
+#contact .btn-success {
+    background-color: #52c483;
+    border-color: #52c483;
+    color: #0f172a;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+#contact .btn-success:hover {
+    background-color: #45b371;
+    border-color: #45b371;
+}
+#contact .btn-outline-light {
+    border: 1px solid #e2e8f0;
+    color: #e2e8f0;
+}
+#contact .btn-outline-light:hover {
+    background: #e2e8f0;
+    color: #0f172a;
+}
+
+/* Contact info icons */
+#contact .d-flex.rounded.bg-success {
+    background-color: #52c483 !important;
+    color: #0f172a;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+
+/* Quick Actions card */
+#contact .quick-actions,
+#contact .bg-secondary.border {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+/* Responsive spacing tweaks */
+@media (max-width: 767px) {
+    #contact {
+        padding: 3rem 0;
+    }
+}

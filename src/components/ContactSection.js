@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Send, Mail, Phone, MapPin, Clock, ArrowRight } from "lucide-react";
 import { contactInfo } from "../MockData";
+import '../assets/css/contact-section.css'
 
 const ContactSection = () => {
     const [formData, setFormData] = useState({
@@ -35,7 +36,7 @@ const ContactSection = () => {
 
     return (
         <section id="contact" className="py-5 bg-dark">
-            <div className="dark-full-container">
+            <div className="container">
                 <div className="dark-content-container">
 
                     {/* Header */}
@@ -50,7 +51,7 @@ const ContactSection = () => {
                     <div className="row g-4">
                         {/* Contact Form */}
                         <div className="col-lg-6">
-                            <div className="bg-secondary border border-dark p-4 rounded">
+                            <div className="bg-transparent border border-success p-4 rounded h-100">
                                 <h3 className="h4 text-white mb-3">Send us a message</h3>
                                 <form onSubmit={handleSubmit} className="row g-3">
                                     <div className="col-md-6">
@@ -113,6 +114,8 @@ const ContactSection = () => {
                                             className="form-select bg-dark text-white border-secondary"
                                         >
                                             <option value="">Select budget range</option>
+                                            <option value="1k-">Below $1,000</option>
+                                            <option value="1k-5k">$1,000 - $5,000</option>
                                             <option value="5k-10k">$5,000 - $10,000</option>
                                             <option value="10k-25k">$10,000 - $25,000</option>
                                             <option value="25k-50k">$25,000 - $50,000</option>
@@ -143,7 +146,7 @@ const ContactSection = () => {
 
                         {/* Contact Information */}
                         <div className="col-lg-6">
-                            <div className="space-y-3">
+                            <div className="bg-transparent border border-success p-4 rounded h-100">
                                 <h3 className="h4 text-white mb-3">Get in touch</h3>
                                 <p className="text-secondary mb-4">
                                     We're here to help bring your ideas to life. Choose the best way to reach us.
@@ -174,7 +177,7 @@ const ContactSection = () => {
                                 </div>
 
                                 {/* Quick Actions */}
-                                <div className="bg-secondary border border-dark p-3 mt-3 rounded">
+                                <div className="bg-transparent border border-dark p-3 mt-3 rounded">
                                     <h5 className="text-white mb-3">Quick Actions</h5>
                                     <div className="d-grid gap-2">
                                         <button className="btn btn-outline-light">Schedule Free Consultation</button>

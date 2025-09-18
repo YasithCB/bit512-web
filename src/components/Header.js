@@ -15,12 +15,12 @@ const Header = () => {
     return (
         <header className="light-header">
             <div className="light-logo">
-                <h1 className="fw-bold fs-4" style={{ color: "#52C483" }}>BIT512</h1>
+                <h1 className="text-green-dark fw-bold fs-4">BIT512</h1>
             </div>
 
             {/* Desktop Nav */}
             <nav className="light-nav d-none d-md-flex">
-                {["home", "services", "about", "testimonials", "contact"].map((sec) => (
+                {["home", "services", "about", "projects", "testimonials", "contact"].map((sec) => (
                     <button
                         key={sec}
                         onClick={() => scrollToSection(sec)}
@@ -35,7 +35,7 @@ const Header = () => {
             <div className="d-none d-md-flex align-items-center gap-2">
                 <button
                     onClick={() => scrollToSection("contact")}
-                    className="btn-primary"
+                    className="btn-primary bg-green-dark"
                 >
                     Get Quote
                 </button>
@@ -64,7 +64,7 @@ const Header = () => {
                         ))}
                         <button
                             onClick={() => scrollToSection("contact")}
-                            className="btn-primary mt-2"
+                            className="btn-primary bg-dark mt-2"
                         >
                             Get Quote
                         </button>

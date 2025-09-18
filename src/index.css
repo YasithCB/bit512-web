@@ -9,10 +9,6 @@ body {
   color: #1E293B;
 }
 
-NavLink{
-  text-decoration: none;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
   monospace;

@@ -102,27 +102,30 @@ export const contactInfo = {
 
 export const projects = [
     {
-        id: 1,
-        title: "E-commerce Platform",
-        category: "Web Development",
-        description: "Full-stack e-commerce solution with React frontend and Python backend",
-        technologies: ["React", "Python", "PostgreSQL"],
-        status: "Completed"
+        id: "1",
+        name: "Graphic Link Web",
+        description: "Graphic Link Web is a UAE-based design and advertising company, offering creative solutions to elevate your brand. We specialize in innovative design and impactful marketing strategies that drive business growth",
+        TechStack: ["React", "Vite", "NodeJS"],
+        link: 'https://graphiclink.ae',
+        image: "/images/projects/p1.png",
+        github: "https://github.com/YasithCB"
     },
     {
-        id: 2,
-        title: "Mobile Banking App",
-        category: "Mobile Development",
-        description: "Secure mobile banking application with biometric authentication",
-        technologies: ["React Native", "Node.js", "MongoDB"],
-        status: "In Progress"
+        id: "2",
+            name: "REel7 Web",
+        description: "Reel7 Web is a movie platform currently in development with a temporary domain, designed to bring users the latest top movies with an easy option to download and enjoy.",
+        TechStack: ["React", "Vite", "NodeJS"],
+        link: 'http://reel7.free.nf/',
+        image: "/images/projects/p2.png",
+        github: "https://github.com/YasithCB/reel7-web"
     },
     {
-        id: 3,
-        title: "AI Analytics Dashboard",
-        category: "AI Solutions",
-        description: "Real-time analytics dashboard with predictive insights",
-        technologies: ["Python", "TensorFlow", "React"],
-        status: "Completed"
+        id: "3",
+        name: "Personal Portfolio Web",
+        description: "Personal Portfolio Website for Yasith C. Bandara – A modern, responsive showcase of my work in graphic design and software development. Features project highlights, professional experience, and contact options, built with React for speed and a clean, minimalist UI.",
+        TechStack: ["React", "Vite"],
+        link: 'https://yasith.web.lk',
+        image: "/images/projects/p3.png",
+        github: "https://github.com/YasithCB/my-portfolio-2025"
     }
 ];

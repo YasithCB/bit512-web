@@ -27,6 +27,18 @@
 .text-green-light {
   color: var(--brand-primary) !important;
 }
+.text-green-dark {
+  color: var(--text-primary) !important;
+}
+.title {
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.bg-green-dark{
+  background-color: var(--brand-dark) !important;
+}
 
 /* Primary Buttons - Modern Green */
 .btn-primary {
@@ -91,6 +103,9 @@
 
 .btn-secondary:active {
   transform: translateY(0);
+}
+.btn-link {
+  text-decoration: none !important;
 }
 
 /* Fixed Light Header */

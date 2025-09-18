@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9d3a7fd-a8d7-4397-8f54-2ddd4cd72ec1" name="Changes" comment="services section styled">
+    <list default="true" id="f9d3a7fd-a8d7-4397-8f54-2ddd4cd72ec1" name="Changes" comment="TestimonialsSection styled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MockData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MockData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/3d-animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/3d-animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/testimonials-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/testimonials-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServicesSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServicesSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TestimonialsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TestimonialsSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="tsconfig.json" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -46,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/My Projects/bit512-web/public",
+    "last_opened_file_path": "F:/My Projects/bit512-web/public/images/projects",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\My Projects\bit512-web\public\images\projects" />
       <recent name="F:\My Projects\bit512-web\public" />
       <recent name="F:\My Projects\bit512-web\public\images\members" />
       <recent name="F:\My Projects\bit512-web\src" />
@@ -103,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758193853311</updated>
-      <workItem from="1758193856074" duration="11988000" />
+      <workItem from="1758193856074" duration="18700000" />
     </task>
     <task id="LOCAL-00001" summary="Hero section and about section styled">
       <option name="closed" value="true" />
@@ -121,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758203140808</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TestimonialsSection styled">
+      <option name="closed" value="true" />
+      <created>1758221256953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758221256953</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hero section and about section styled" />
     <MESSAGE value="services section styled" />
-    <option name="LAST_COMMIT_MESSAGE" value="services section styled" />
+    <MESSAGE value="TestimonialsSection styled" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestimonialsSection styled" />
   </component>
 </project>

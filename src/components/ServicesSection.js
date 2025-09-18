@@ -17,7 +17,7 @@ const ServicesSection = () => {
 
                     {/* Header */}
                     <div className="text-center mb-5 pt-5">
-                        <h2 className="fw-bold mb-3" style={{ fontSize: '2.5rem', color: '#1B412B' }}>Our Services</h2>
+                        <h1 className="title">Our Services</h1>
                         <p className="fs-5 text-secondary mx-auto" style={{ maxWidth: '768px' }}>
                             We deliver comprehensive digital solutions tailored for startups and small businesses,
                             combining cutting-edge technology with creative innovation.
@@ -73,13 +73,13 @@ const ServicesSection = () => {
 
                     {/* CTA Section */}
                     <div className="text-center mt-5">
-                        <div className="rounded-3 p-4 p-md-5 text-white" style={{ backgroundColor: '#52C483' }}>
+                        <div className="bg-success rounded-3 p-4 p-md-5 text-white">
                             <h3 className="fw-bold mb-3" style={{ fontSize: '1.75rem' }}>Ready to Start Your Project?</h3>
                             <p className="fs-5 mb-4 mx-auto" style={{ maxWidth: '640px', opacity: 0.9 }}>
                                 Let's discuss how we can help transform your business with innovative web solutions,
                                 mobile apps, and AI-powered features.
                             </p>
-                            <button className="btn btn-light fw-bold d-inline-flex align-items-center gap-2 px-4 py-2" style={{ color: '#52C483' }}>
+                            <button className="btn btn-light text-green-dark fw-bold d-inline-flex align-items-center gap-2 px-4 py-2">
                                 Get Free Consultation
                                 <ArrowRight size={20} />
                             </button>
