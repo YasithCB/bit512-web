@@ -66,24 +66,28 @@ export const testimonials = [
 export const teamMembers = [
     {
         id: 1,
-        name: "Alex Thompson",
-        role: "Lead Developer",
+        name: "Yasith C Bandara",
+        role: "Lead Developer | CEO",
         expertise: "React, Python, Full-Stack",
-        experience: "5+ years"
+        experience: "5+ years",
+        img:'/images/members/m2.png',
     },
     {
         id: 2,
-        name: "Maria Santos",
-        role: "UI/UX Designer",
+        name: "Sandeep Wijesooriya",
+        role: "UI/UX/Graphic Designer",
         expertise: "Design Systems, User Research",
-        experience: "4+ years"
+        experience: "8+ years",
+        img:'/images/members/m1.png',
     },
     {
         id: 3,
-        name: "David Kim",
+        name: "Emma Evelyn",
         role: "AI Specialist",
         expertise: "Machine Learning, Data Science",
-        experience: "6+ years"
+        experience: "6+ years",
+        img: 'https://img.freepik.com/free-photo/portrait-smiling-blonde-woman_23-2148316635.jpg?semt=ais_incoming&w=740&q=80'
+
     }
 ];
 

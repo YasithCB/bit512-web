@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9d3a7fd-a8d7-4397-8f54-2ddd4cd72ec1" name="Changes" comment="">
+    <list default="true" id="f9d3a7fd-a8d7-4397-8f54-2ddd4cd72ec1" name="Changes" comment="Hero section and about section styled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ServicesSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServicesSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MockData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MockData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutSection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/My Projects/bit512-web/src",
+    "last_opened_file_path": "F:/My Projects/bit512-web/public/images/members",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\My Projects\bit512-web\public\images\members" />
       <recent name="F:\My Projects\bit512-web\src" />
       <recent name="F:\My Projects\bit512-web\src\components" />
     </key>
@@ -98,11 +100,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758193853311</updated>
-      <workItem from="1758193856074" duration="6437000" />
+      <workItem from="1758193856074" duration="9065000" />
     </task>
+    <task id="LOCAL-00001" summary="Hero section and about section styled">
+      <option name="closed" value="true" />
+      <created>1758200416925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758200416925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hero section and about section styled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hero section and about section styled" />
   </component>
 </project>

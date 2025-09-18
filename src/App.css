@@ -24,6 +24,10 @@
   --brand-dark: #1B412B;
 }
 
+.text-green-light {
+  color: var(--brand-primary) !important;
+}
+
 /* Primary Buttons - Modern Green */
 .btn-primary {
   background: var(--brand-primary);
@@ -310,3 +314,5 @@
     padding: 70px 20px 0;
   }
 }
+
+
