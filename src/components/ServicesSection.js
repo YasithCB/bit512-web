@@ -37,7 +37,7 @@ const ServicesSection = () => {
                                         onMouseLeave={(e) => e.currentTarget.style.borderColor = '#E5E7EB'}
                                     >
                                         <div className="d-flex gap-3">
-                                            <div className="d-flex align-items-center justify-content-center rounded-xl" style={{ width: '64px', height: '64px', backgroundColor: '#F0FDF4', border: '1px solid #52C483' }}>
+                                            <div className="d-flex align-items-center justify-content-center rounded-xl p-3" style={{ backgroundColor: '#F0FDF4', border: '1px solid #52C483', height: 'min-content' }}>
                                                 <IconComponent style={{ color: '#52C483' }} size={32} />
                                             </div>
 
@@ -79,7 +79,7 @@ const ServicesSection = () => {
                                 Let's discuss how we can help transform your business with innovative web solutions,
                                 mobile apps, and AI-powered features.
                             </p>
-                            <button className="btn btn-light d-inline-flex align-items-center gap-2 px-4 py-2" style={{ color: '#52C483' }}>
+                            <button className="btn btn-light fw-bold d-inline-flex align-items-center gap-2 px-4 py-2" style={{ color: '#52C483' }}>
                                 Get Free Consultation
                                 <ArrowRight size={20} />
                             </button>

@@ -27,7 +27,7 @@ const HeroSection = () => {
             <div className="light-full-container">
                 <div className="light-content-container">
 
-                    <div className="row mt-4 g-4 align-items-center">
+                    <div className="row my-4 g-4 align-items-center">
                         {/* Left side - Content */}
                         <div className="col-lg-6">
 
