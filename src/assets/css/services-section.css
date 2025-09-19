@@ -1,0 +1,103 @@
+/* --- Grid Animation --- */
+.services-grid .col-md-6 {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.6s ease forwards;
+}
+.services-grid .col-md-6:nth-child(2n) {
+    animation-delay: 0.2s;
+}
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* --- Card --- */
+.service-card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    overflow: hidden;
+}
+.service-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    background-color: rgba(82, 196, 131, 0.1);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.service-card-inner {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+/* --- Icon Box --- */
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 64px;
+    min-height: 64px;
+    border-radius: 1rem;
+    border: 1px solid #52C483;
+    background: #F0FDF4;
+    color: #52C483;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.service-card:hover .icon-box {
+    background: #52C483;
+    color: #fff;
+}
+
+/* --- Text --- */
+.service-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1B412B;
+    margin-bottom: 0.75rem;
+}
+
+.service-desc {
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+/* --- Features --- */
+.service-features .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+.feature-item .dot {
+    width: 6px;
+    height: 6px;
+    background: #52C483;
+    border-radius: 50%;
+}
+.feature-text {
+    color: #6b7280;
+    font-size: 0.875rem;
+}
+
+/* --- Button --- */
+.learn-more {
+    background: none;
+    border: none;
+    color: #52C483;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 0;
+}
+.learn-more:hover {
+    color: #45b371;
+    transform: translateX(4px);
+}

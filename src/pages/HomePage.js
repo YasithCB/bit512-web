@@ -7,6 +7,7 @@ import TestimonialsSection from "../components/TestimonialsSection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 import ProjectsSection from "../components/ProjectsSection";
+import WhatsAppButton from "../components/WhatsappButton";
 
 const HomePage = () => {
     return (
@@ -19,6 +20,8 @@ const HomePage = () => {
             <TestimonialsSection/>
             <ContactSection/>
             <Footer/>
+
+            <WhatsAppButton/>
         </div>
     );
 };

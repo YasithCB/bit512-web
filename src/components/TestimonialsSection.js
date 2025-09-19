@@ -10,7 +10,7 @@ const TestimonialsSection = () => {
                 {/* Header */}
                 <div className="testimonials-header">
                     <h2 className="title">What Our Clients Say</h2>
-                    <p className="subtitle">
+                    <p className="subtitle fs-5">
                         Don't just take our word for it. Here's what startups and small
                         businesses say about working with BIT512.
                     </p>

@@ -89,7 +89,7 @@ const AboutSection = () => {
 
                             {/* Tech Stack */}
                             <div className="tech-stack mt-4 pt-3 border-top border-light">
-                                <h4 className="text-white fw-semibold mb-2">Tech Stack</h4>
+                                <h4 className="text-white fw-semibold mb-3">Tech Stack</h4>
                                 <div className="d-flex flex-wrap gap-2">
                                     {companyInfo.technologies.map((tech, index) => (
                                         <span key={index} className="tech-badge px-3 py-1 rounded small">
@@ -103,6 +103,7 @@ const AboutSection = () => {
 
                 </div>
 
+                {/* team members */}
                 <div className="text-center mb-5">
                     <h3 className="display-6 text-white mb-3">Meet Our Team</h3>
                     <p className="text-white-50 mx-auto" style={{maxWidth: '640px'}}>

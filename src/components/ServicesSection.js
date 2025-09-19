@@ -1,12 +1,15 @@
 import React from "react";
-import { Globe, Smartphone, Brain, Building, ArrowRight } from "lucide-react";
+import { Globe, Smartphone, Palette , Layout, Brain, Building, ArrowRight } from "lucide-react";
 import { services } from "../MockData";
+import '../assets/css/services-section.css'
 
 const iconMap = {
     Globe: Globe,
     Smartphone: Smartphone,
     Brain: Brain,
-    Building: Building
+    Building: Building,
+    Palette: Palette,
+    Layout: Layout,
 };
 
 const ServicesSection = () => {
@@ -25,43 +28,33 @@ const ServicesSection = () => {
                     </div>
 
                     {/* Services Grid */}
-                    <div className="row g-4">
+                    <div className="row g-4 services-grid">
                         {services.map((service) => {
                             const IconComponent = iconMap[service.icon];
                             return (
                                 <div key={service.id} className="col-md-6">
-                                    <div
-                                        className="group bg-white border rounded-xl p-4 p-md-5 shadow-sm"
-                                        style={{ borderColor: '#E5E7EB', transition: 'all 0.3s' }}
-                                        onMouseEnter={(e) => e.currentTarget.style.borderColor = '#52C483'}
-                                        onMouseLeave={(e) => e.currentTarget.style.borderColor = '#E5E7EB'}
-                                    >
-                                        <div className="d-flex gap-3">
-                                            <div className="d-flex align-items-center justify-content-center rounded-xl p-3" style={{ backgroundColor: '#F0FDF4', border: '1px solid #52C483', height: 'min-content' }}>
-                                                <IconComponent style={{ color: '#52C483' }} size={32} />
+                                    <div className="service-card">
+                                        <div className="service-card-inner">
+                                            <div className="icon-box">
+                                                <IconComponent size={32} />
                                             </div>
 
-                                            <div className="flex-grow-1">
-                                                <h3 className="fw-bold mb-3" style={{ color: '#1B412B', fontSize: '1.5rem' }}>{service.title}</h3>
-                                                <p className="text-secondary mb-3">{service.description}</p>
+                                            <div className="service-content">
+                                                <h3 className="service-title">{service.title}</h3>
+                                                <p className="service-desc">{service.description}</p>
 
-                                                <div className="mb-3">
-                                                    {service.features.map((feature, index) => (
-                                                        <div key={index} className="d-flex align-items-center gap-2 mb-1">
-                                                            <div className="rounded-circle" style={{ width: '6px', height: '6px', backgroundColor: '#52C483' }}></div>
-                                                            <span className="text-secondary small">{feature}</span>
+                                                <div className="service-features">
+                                                    {service.features.map((feature, i) => (
+                                                        <div key={i} className="feature-item">
+                                                            <span className="dot"></span>
+                                                            <span className="feature-text">{feature}</span>
                                                         </div>
                                                     ))}
                                                 </div>
 
-                                                <button
-                                                    className="btn btn-link p-0 d-flex align-items-center gap-2"
-                                                    style={{ color: '#52C483', transition: 'color 0.3s' }}
-                                                    onMouseEnter={(e) => e.currentTarget.style.color = '#45B371'}
-                                                    onMouseLeave={(e) => e.currentTarget.style.color = '#52C483'}
-                                                >
+                                                <button className="learn-more">
                                                     <span>Learn More</span>
-                                                    <ArrowRight size={16} className="transition-transform" />
+                                                    <ArrowRight size={16} />
                                                 </button>
                                             </div>
                                         </div>
@@ -70,6 +63,7 @@ const ServicesSection = () => {
                             );
                         })}
                     </div>
+
 
                     {/* CTA Section */}
                     <div className="text-center mt-5">

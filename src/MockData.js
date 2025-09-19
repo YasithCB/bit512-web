@@ -36,7 +36,22 @@ export const services = [
         description: "Scalable internal systems: CRMs, inventory platforms, and ERP tools. Built for efficiency, security, and future expansion.",
         features: ["CRM Systems", "Inventory Management", "ERP Solutions", "Security Focused"],
         icon: "Building"
+    },
+    {
+        id: 5,
+        title: "Graphic Design",
+        description: "Creative visual solutions: branding, marketing materials, and digital graphics that elevate your brand identity.",
+        features: ["Logo & Branding", "Social Media Graphics", "Print & Digital Designs", "Creative Concepts"],
+        icon: "Palette"
+    },
+    {
+        id: 6,
+        title: "UI/UX Design",
+        description: "User-focused interface and experience design for websites and mobile apps, ensuring smooth navigation and modern visuals.",
+        features: ["Wireframing & Prototyping", "Responsive Web Design", "Mobile App UI", "User Experience Optimization"],
+        icon: "Layout"
     }
+
 ];
 
 export const testimonials = [
@@ -100,14 +115,14 @@ export const contactInfo = {
     availability: "Remote services available worldwide"
 };
 
-export const projects = [
+export const softwareProjects = [
     {
         id: "1",
         name: "Graphic Link Web",
         description: "Graphic Link Web is a UAE-based design and advertising company, offering creative solutions to elevate your brand. We specialize in innovative design and impactful marketing strategies that drive business growth",
         TechStack: ["React", "Vite", "NodeJS"],
         link: 'https://graphiclink.ae',
-        image: "/images/projects/p1.png",
+        image: "/images/projects/software/p1.png",
         github: "https://github.com/YasithCB"
     },
     {
@@ -116,7 +131,7 @@ export const projects = [
         description: "Reel7 Web is a movie platform currently in development with a temporary domain, designed to bring users the latest top movies with an easy option to download and enjoy.",
         TechStack: ["React", "Vite", "NodeJS"],
         link: 'http://reel7.free.nf/',
-        image: "/images/projects/p2.png",
+        image: "/images/projects/software/p2.png",
         github: "https://github.com/YasithCB/reel7-web"
     },
     {
@@ -125,7 +140,46 @@ export const projects = [
         description: "Personal Portfolio Website for Yasith C. Bandara – A modern, responsive showcase of my work in graphic design and software development. Features project highlights, professional experience, and contact options, built with React for speed and a clean, minimalist UI.",
         TechStack: ["React", "Vite"],
         link: 'https://yasith.web.lk',
-        image: "/images/projects/p3.png",
+        image: "/images/projects/software/p3.png",
         github: "https://github.com/YasithCB/my-portfolio-2025"
     }
+];
+
+export const designProjects = [
+    {
+        id: "1",
+        name: "Flayer",
+        description: "A creative flyer design project for Graphic Link Web, showcasing visually appealing layouts and branding that enhance marketing campaigns. Designed to engage audiences and strengthen brand identity.",
+        TechStack: ["Photoshop"],
+        link: '#',
+        image: "/images/projects/graphic/p6.png",
+        github: "#"
+    },
+    {
+        id: "2",
+        name: "Flayer",
+        description: "A creative flyer design project for Graphic Link Web, showcasing visually appealing layouts and branding that enhance marketing campaigns. Designed to engage audiences and strengthen brand identity.",
+        TechStack: ["Photoshop"],
+        link: '#',
+        image: "/images/projects/graphic/p11.png",
+        github: "#"
+    },
+    {
+        id: "3",
+        name: "Flayer",
+        description: "A creative flyer design project for Graphic Link Web, showcasing visually appealing layouts and branding that enhance marketing campaigns. Designed to engage audiences and strengthen brand identity.",
+        TechStack: ["Photoshop"],
+        link: '#',
+        image: "/images/projects/graphic/p8.png",
+        github: "#"
+    },
+    {
+        id: "4",
+        name: "Flayer",
+        description: "A creative flyer design project for Graphic Link Web, showcasing visually appealing layouts and branding that enhance marketing campaigns. Designed to engage audiences and strengthen brand identity.",
+        TechStack: ["Photoshop"],
+        link: '#',
+        image: "/images/projects/graphic/p9.png",
+        github: "#"
+    },
 ];
